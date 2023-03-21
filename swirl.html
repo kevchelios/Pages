@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Swirl</title>
+        <meta name="author" content="Kev">
+        <style>
+                body {
+                    background-image: url(img/swirl.png);
+                    background-repeat: repeat;
+                    background-color: #ffffff;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #000000;
+                    width: 50%;
+                }
+                ul {
+                    font-family: 'Courier New', Courier, monospace;
+                    width: 500px;
+                }
+                p, a {
+                    font-family: helvetica, sans-serif;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Swirl</h1>
+            <p>
+                The <b>Swirl</b> background, is a modern topography or swirl pattern. This type of pattern is very efficient in filling out empty space and dynamic enough to 
+            </p>
+            <ul>   
+                <li>
+                    We'll start by creating a 400 x 400 pixels.
+                </li>
+                <li>
+                    The swirl is nothing more than a couple of brush strokes. On our blank canvas, using a black circular brush with very little hardness, begin to create random spotting like the example here:
+                    <br><br>
+                    <a><b>Here's what mine looked like after a few brush strokes</b></a>
+                    <img src="img/spotting.png" alt="Example of spotting" title="Example of spotting" width="300">
+                </li>
+                <br>
+                <li>
+                    Once you've added spots and smudges to the canvas, we'll add an adjustment and select <b>posterize</b> from the menu. Set the posterization at around 4. You'll start to notice the layers are form.
+                </li>
+                <li>
+                
+                    Next select in the Filter menu Other>offset
+                    <br><br>
+                    <a><b>You'll use the following settings:</b></a>
+                    <br>
+                    <img src="img/offset.png" alt="Settings for using the offset filter" title="these are the settings for using the offset filter" width="300">
+                </li>
+                <li>
+                    Using the offset filter, will create seams within the image. All you have to do to blend these is use the <b>Marquee tool (M)</b> to create a selection over the seams, right-clicking the selection and then selecting content aware fill.
+                </li>
+                <li>
+                   You should now have a seamless pattern that will span infinitely when repeated in the CSS. 
+                </li>
+                <p>
+                    We have our pattern, but we don't have readability because of the lack of contrast between the black text and the lines of the pattern. 
+                </p>
+                <li>
+                    We'll lighten up the pattern by adding a levels adjustment over the swirl we've created. Move the sliders until the lines become very light but retaining their structure.
+                    <br><br>
+                    <a><b>These were the settings I found to work well for this pattern</b></a>
+                    <br>
+                    <img src="img/levels.png" alt="Settings for the levels adjustment over the swirl pattern" title="Levels Adjusments settings" width="300">
+                </li>
+                <br><br>
+                <li>
+                    Now any black text should be more readable when you add this background to repeat in the CSS. Cheers!
+                </li>
+            </ul>
+        <p>Copyright &copy; 2023 Kevin Duran</p>
+    </body>
+</html>

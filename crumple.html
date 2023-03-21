@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Crumple</title>
+            <meta name="author" content="Kev">
+            <style>
+                    body {
+                        background-image: url(img/crumple.png);
+                        background-repeat: repeat;
+                        background-color:#ffffff;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: #ffffff;
+                    }
+                    p {
+                        width: 600px;
+                    }
+                    li {
+                        width: 500px;
+                        font-family: helvetica;
+                    }
+                    a {
+                        color: #ffcf33;
+                        font-style: bold;
+                    }
+                    table {
+                        border: 4px solid rgb(255, 255, 255);
+                    }
+                    td {
+                        background-color: #353535;
+                    }
+            </style>
+    </head>
+    <body>
+            <h1>Crumple</h1>
+            <p>
+                For <b>Crumple</b> background, my inspiration came during my Typography course. I was sitting at my station, and saw a bunch of wadded up thick paper in a waste bin next to me. I've always really liked the texture of paper and just mixed/media overall. I thought this would make a great background.  
+            </p>
+            <ul>   
+                <h2>Phase 1: The Physical Media</h2>
+                <li>    
+                    First things first: find a piece of blank paper, preferrably ranpak or some sort of filler/wrapping paper from packaging or gifts. I sourced mine from a thriftstore that wrapped a mug in a very thick wrapping paper. 
+                </li>
+                <li>
+                    I laid the paper as flat as I could on the floor, while I stood over it, and then used <a href="https://drive.google.com" target ="_blank">Google Drive's</a> scan document feature to create a PDF of the texture. This was very simple to import into Photoshop.  
+                </li>
+                <h2>Phase 2: Photoshop</h2>
+                <li>
+                    We'll start by creating a 400 x 400 pixels.
+                </li>
+                <li>
+                    Import the texture pdf file and fill size it to fill out the entire canvas
+                </li>
+                <li>
+                    If the texture file exceeds the size of the canvas, select the canvas area and use CTRL+J extract a copy of just that area.
+                </li>
+                <li>
+                    Next select from the Filter menu Other>offset
+                    <br><br>
+                    <a><b>You'll use the following settings:</b></a>
+                    <br>
+                    <img src="img/offset.png" alt="Settings for using the offset filter" title="these are the settings for using the offset filter" width="300">
+                </li>
+                <li>
+                    Using the offset filter, will create seams within the image. All you have to do to blend these is use the <b>Marquee tool (M)</b> to create a selection over the seams, right-clicking the selection and then selecting content aware fill.
+                </li>
+                <li>
+                    Because of the shadows of the black and white paper, it may be easier to color the paper using a solid color or gradient, allowing you to use a white text for better visibility. For this reason, we'll us a gradient map to give the highlights a blue tint, and the shadows a more, purple hue. Begin in the adjusment layer menu and select <b>Gradient Map</b>. The settings used are as listed:
+                    <br><br>
+                                        <table >
+                                            <thead>
+                                                <tr>
+                                                    <th>Hex code</th>
+                                                    <th>Percentage</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>#3A4DD9</td>
+                                                <td>37%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>#402546</td>
+                                                <td>0%</td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                </li>
+                <li>
+                    Now that our color is applied to the texture, we can go ahead and save it to our <b>img</b> directory so it's ready to code into the CSS!
+              </li>
+            </ul>
+            <p>Copyright &copy; 2023 Kevin Duran</p>
+    </body>
+</html>
