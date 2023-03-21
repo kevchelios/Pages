@@ -1,9 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <meta charset="utf-8">
+        <title>Grain</title>
+        <meta name="author" content="Kev">
+        <style>
+            body {
+                background-image: url(img/grain.png);
+                width: 400px;
+                background-repeat: repeat;
+                background-color: #e7ce12;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
     </head>
     <body>
-
+        <h1>Grain</h1>
+        <p>
+            The 4th and final texture is the <b>Grain</b> background. Full transparency, I definitely needed a layup for this last one. Mainly cause I'd overcompensated on the previous textures and the steps to produce them. I needed something that was gonna be aesthetically still pleasing, but much, much more simple to produce. 
+        </p>
+        <h3>Let's get started</h3>
+        <ul>
+            <li>
+                We'll begin with creating a canvas that measures 1000 x 1000 pixels. This will allow us to create more density at better quality.
+            </li>
+            <li>
+                Let's cover the entire canvas with a rectangle and fill the color with the following hexcode.
+                <br><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <td style="background-color: #444440; color: #ffffff; border: 2px solid white;"> e7ce12 </td>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+            </li>
+            <li>
+                Next up is actually creating the texture. Create a new layer and head up to the menu selecting:
+                <br><br>
+                <b style="color:#a10fc5;">Edit > Fill > Contents > Select 50% Gray</b>
+                <br><br>
+            </li>
+            <li>
+                Let's convert the gray layer to a smart object
+            </li>
+            <li>
+                Head up to the filters menu and select:
+                <br><br>
+                <b style="color: #a10fc5;">
+                Filter > Noise > Add Noise
+                </b>
+                <br><br>
+                I set my amount to about 9% under gaussian and monocrhomatic
+            </li>
+            <li>
+                Now that we have the noise, let's change the blend mode to color burn
+            </li>
+            <li>
+                Our final step is exporting that puppy and dropping it into the img folder because it's CSS ready. 
+            </li>
+        </ul>
+    <p>
+        Copyright &copy; 2023 Kevin Duran 
+    </p>
     </body>
 </html>
